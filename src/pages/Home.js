@@ -393,7 +393,7 @@ const ActionButtonsSection = styled.div`
 	}
 `
 const GetMUSButton = styled(Button)`
-	background: #ff8a32 0% 0% no-repeat padding-box;
+	background: #66A182 0% 0% no-repeat padding-box;
 	box-shadow: 0px 3px 12px #00000069;
 	border-color: transparent;
 	padding: 7px 28px;
