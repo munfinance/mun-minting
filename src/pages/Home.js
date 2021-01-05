@@ -173,7 +173,7 @@ export const Home = () => {
 				<StyledNavBarCollapse id="responsive-navbar-nav">
 					<StyledNav className="mr-auto">
 						<StyledLink href="#minting-app" active="true" onClick={() => {
-							window.location = 'https://ymoon.finance'
+							window.location = 'https://mun.finance'
 						}}>
 							home
 						</StyledLink>
