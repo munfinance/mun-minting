@@ -177,14 +177,16 @@ export const Home = () => {
 						}}>
 							home
 						</StyledLink>
-						<StyledLink href="#minting-app" active="true">
+						<StyledLink href="#minting-app" active="true" onClick={() => {
+							window.location = 'https://mun.cards'
+						}}>
 							dapp
 						</StyledLink>
 					</StyledNav>
 					<StyledNav>
 						<LinkWrapper>
 							<StyledLink
-								href="https://discord.gg/pAYrSwR"
+								href="https://discord.gg/w2FydwjjVr"
 								target="_blank"
 							>
 								<img
@@ -201,18 +203,6 @@ export const Home = () => {
 							>
 								<img
 									src={GitHubIcon}
-									width="30"
-									height="30"
-									className="d-inline-block align-top"
-									alt="MUN logo"
-								/>
-							</StyledLink>
-							<StyledLink
-								href="https://mun.finance/assets/mun-whitepaper.pdf"
-								target="_blank"
-							>
-								<img
-									src={WhitepaperIcon}
 									width="30"
 									height="30"
 									className="d-inline-block align-top"
